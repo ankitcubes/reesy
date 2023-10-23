@@ -1,12 +1,12 @@
 const mysql = require("mysql");
 
 const db = mysql.createConnection({
-  host: "localhost",
-  user: "root",
-  password: "",
-  database: "reesy",
+  host: "databases.000webhost.com",
+  user: "id21441588_reesy",
+  password: "Cubes@4030",
+  database: "id21441588_reesy",
   charset: 'utf8mb4',
-//   socketPath: '/var/run/mysqld/mysqld.sock',
+  // socketPath: '/var/run/mysqld/mysqld.sock',
 });
 
 db.connect(function (err) {
